@@ -1,0 +1,7 @@
+streamlit==1.31.0
+pandas
+numpy
+plotly
+pillow
+scikit-learn>=1.0.0
+mysql-connector-python==8.0.33
