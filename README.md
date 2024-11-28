@@ -12,9 +12,27 @@ Le projet utilise des données de vitesse de vent et de production d'énergie po
 
 ## Installation
 
-1. Clonez le repository
-2. Installez les dépendances avec `pip install -r requirements.txt`
-3. Exécutez le script `main.py` pour lancer l'analyse et la prédiction.
+1. Créez un environnement virtuel :
+   ```bash
+   # Sur Windows
+   python -m venv venv
+   
+   # Sur Linux/Mac
+   python3 -m venv venv
+   ```
+
+2. Activez l'environnement virtuel :
+   ```bash
+   # Sur Windows
+   venv\Scripts\activate
+   
+   # Sur Linux/Mac
+   source venv/bin/activate
+   ```
+
+3. Clonez le repository
+4. Installez les dépendances avec `pip install -r requirements.txt`
+5. Exécutez le script `main.py` pour lancer l'analyse et la prédiction.
 
 ## Contribueurs
 
